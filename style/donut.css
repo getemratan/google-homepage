@@ -1,0 +1,166 @@
+.main{
+	margin: 0px;
+	height: 100%;
+}
+#aa{
+	position: absolute;
+    top: 25px;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+a{
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    margin-left: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+	display: block;
+	margin: 0 auto;
+}
+#bb{
+	display: block;
+	margin: 0 auto;
+	min-width: 980px;
+}
+#thebar{
+	width: 100%;
+}
+.cc{
+	width:484px;
+	height: 44px;
+	padding: 0;
+	border: 1px solid #2222;
+	box-shadow: 0.1px 1px 20px 1px #8888885e;
+}
+input{
+	font: 16px arial,sans-serif;
+	width: 403px;
+	height: 34px;
+	border: none;
+}
+.cc .tooltiptext{
+	visibility: hidden;
+	width: 50px;
+	height: 10px;
+	background-color: white;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 6px;
+	border: 1px solid black;
+	position: absolute;
+    top: 50%;
+    font-size: 14px;
+    font-family: arial;
+    color: #747474;
+    box-shadow: 2px 2px black;
+}
+.cc:hover .tooltiptext{
+	visibility: visible;
+}
+.dd{
+	width:484px;
+	height: 44px;
+}
+.dd input{
+	width: auto;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.dd input:hover {
+	width: auto;
+	background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+    color: black;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+	box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+}
+#icon1{
+	height: 30px;
+    width: 30px;
+    opacity: .55;
+    background-image: url(../image/uu.png);
+    background-size: 528px 68px;
+    background-position: -132px -108px;
+}
+#icon2{
+	height: 30px;
+    width: 30px;
+    opacity: .55;
+    background-image: url(../image/uu.png);
+    background-size: 528px 68px;
+    background-position: -311px -40px;
+}
+#icon3{
+	background-color: #4285F4;
+    border-radius: 2px;
+    color: #FFF;
+	padding: 5px;
+}
+.gg{
+	    float: right;
+    min-width: 255px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+}
+.footer1{
+    height: 45px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #F5F5F5;
+    width: 100%;
+    left: 0px;
+    border: 1px solid #E0E0E0;
+}
+.ls{
+    color: #666;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-size: small;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+.footer2{
+    position: absolute;
+    right: 23px;
+    top: 3px;
+}
+.rs{
+	color: #666;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    font-size: small;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
